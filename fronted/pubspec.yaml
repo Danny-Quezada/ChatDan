@@ -1,0 +1,46 @@
+name: chat_dan
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.5
+  cached_network_image: ^3.3.0
+  flutter_chat_ui: ^1.6.10
+  provider: ^6.1.1
+  voice_message_package: ^2.1.0
+  signalr_netcore: ^0.1.7+2-nullsafety.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+ 
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+ 
+
+  fonts:
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-Regular.ttf
+        - asset: assets/fonts/Onest-Bold.ttf
+          weight: 900
